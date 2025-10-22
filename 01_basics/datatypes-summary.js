@@ -33,7 +33,29 @@ const myFunction=function(){
 }
 
 // console.log(typeof bigNumber)
-console.log(typeof outsideTemp)
-console.log(typeof myObj)
-console.log(typeof myFunction)
-console.log(typeof characters)
+// console.log(typeof outsideTemp)
+// console.log(typeof myObj)
+// console.log(typeof myFunction)
+// console.log(typeof characters)
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack-copy (Primitive), Heap-ref/original value (Non-Primitive)
+
+// let myYoutubeName="PujaBlogs"
+// let anothername=myYoutubeName
+// anothername="PujaCodes"
+// console.log(myYoutubeName)
+// console.log(anothername)
+
+let userOne= {
+    email:"user@google.com",
+    upi:"user@ptaxis"
+}
+
+let userTwo=userOne;
+userTwo.email="puja@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
