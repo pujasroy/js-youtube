@@ -62,7 +62,34 @@ console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
 
 
+const course={
+    coursename:"js in hindi",
+    price:999,
+    courseinstructor:"hitesh"
+}
+
+const {courseinstructor:instructor}=course //object de-structuring
+console.log(instructor);
+
+// const navbar= ({company}) => {
+
+// }
+// navbar (company="hitesh")
 
 
+//APIs
+//=>software components that automatically update data b/w clients and servers
 
+// {
+//     "name":"puja"
+//     "college":"igdtuw"
+//     "programme":"cse"
+//     "year":1
+// }
+
+[
+    {},
+    {},
+    {}
+]
 
