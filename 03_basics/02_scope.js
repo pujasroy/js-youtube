@@ -57,8 +57,8 @@ console.log(addone(5));
 function addone(num){
     return num+1
 }
-
-addTwoNumbers(5)
+ 
+addTwo(5)
 const addTwo=function(num){
     return num+2 
 }
