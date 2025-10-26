@@ -27,7 +27,7 @@ console.log(this); //{} =>returns empty object within node env
 
 function myself(){
     let username="puja"
-    console.log(this); //returns may values
+    console.log(this); //returns many values
 }
 myself()
  
