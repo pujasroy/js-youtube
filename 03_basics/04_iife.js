@@ -10,4 +10,4 @@
 
 ((name)=>{
     console.log(`DB connected two ${name}`);
-})("puja")
+})("puja") 
